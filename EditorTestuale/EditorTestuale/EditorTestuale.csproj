@@ -141,6 +141,13 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ScrollEventArgs.cs" />
+    <Compile Include="ScrollTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ScrollTextBox.Designer.cs">
+      <DependentUpon>ScrollTextBox.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
